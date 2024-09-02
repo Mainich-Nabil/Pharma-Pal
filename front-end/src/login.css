@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+.login-form h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    color: #2e7d32;
+}
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px -12px;
+    border: 1px solid #a5d6a7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.login-form button:hover {
+    background-color: #2e7d32;
+}
+.flash-message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.flash-message.success {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+.flash-message.error {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+}
+.login-icon {
+    text-align: center;
+    font-size: 48px;
+    color: #43a047;
+    margin-bottom: 20px;
+}

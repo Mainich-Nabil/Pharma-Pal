@@ -1,0 +1,216 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "how's it going",
+        "greetings",
+        "hello there",
+        "hi there",
+        "hey there",
+        "howdy",
+        "hiya"
+      ],
+      "responses": [
+        "Hello! I'm here to help you get information about drugs. Simply type the name of a drug to learn more.",
+        "Hi there! To get started, just enter the name of a medication you'd like information about.",
+        "Greetings! I can help you find drug information. What's the name of the drug you're interested in?",
+        "Hello! Ready to explore some drug information? Just type in a medication name.",
+        "Hi! I'm your drug information assistant. What medication would you like to know about?"
+      ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "what can you do?",
+        "what's the point of this?",
+        "how can you help me?",
+        "what is your purpose?",
+        "what are you for?",
+        "what do you know about?",
+        "what's your function?",
+        "why are you here?",
+        "what's your role?",
+        "what are you supposed to do?",
+        "what's your purpose?"
+      ],
+      "responses": [
+        "I'm an interface to help you get information about drugs. Just type the name of any drug, and I'll fetch the details for you.",
+        "My purpose is to connect you with our drug information database. Simply input a drug name, and I'll retrieve the relevant information.",
+        "I'm here to help you access our drug information system. Type in a medication name, and I'll get the details for you.",
+        "My role is to assist you in obtaining drug information quickly. All you need to do is provide a drug name.",
+        "I'm designed to be your gateway to our comprehensive drug database. Just tell me which medication you're curious about."
+      ]
+    },
+    {
+      "tag": "how_to_use",
+      "patterns": [
+        "how does this work?",
+        "what should I do?",
+        "how do I use this?",
+        "give me instructions",
+        "help me use this",
+        "how to use",
+        "what are the steps?",
+        "guide me",
+        "how can I get information?",
+        "what's the process?",
+        "how do I start?"
+      ],
+      "responses": [
+        "It's simple! Just type the name of a drug you want information about. I'll then fetch the details from our database.",
+        "To use this service, all you need to do is enter the name of a medication. I'll take care of retrieving the information for you.",
+        "Using this is easy - just provide the name of any drug, and I'll connect you with our database to get the information you need.",
+        "The process is straightforward: 1. Type a drug name. 2. Wait for me to fetch the information. That's it!",
+        "Getting started is easy. Think of a medication you're curious about, type its name, and I'll do the rest."
+      ]
+    },
+    {
+      "tag": "drug_input",
+      "patterns": ["(.*)"],
+      "responses": [
+        "Thank you. I'm now fetching information about %1. Please wait a moment...",
+        "Got it. I'm retrieving data on %1 from our database. This won't take long...",
+        "Understood. I'm accessing the information for %1. The details will be available shortly...",
+        "Excellent choice. I'm looking up %1 in our system. Hang tight for the results...",
+        "I'm on it! Searching for information about %1. The data will be with you in a jiffy..."
+      ]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "what kind of information?",
+        "what details will I get?",
+        "what do you tell me about drugs?",
+        "what info is available?",
+        "what can I learn?",
+        "what type of data?",
+        "what will you show me?",
+        "what's included in the information?",
+        "what does the database contain?"
+      ],
+      "responses": [
+        "Once you provide a drug name, you'll receive information about its uses, side effects, and other important details. What drug would you like to know about?",
+        "Our database contains comprehensive information about medications, including their uses, potential side effects, and more. Simply type a drug name to get started.",
+        "You can get a range of details about any drug, such as its intended uses and possible side effects. Which medication are you interested in?",
+        "The information typically includes the drug's purpose, dosage guidelines, potential side effects, and contraindications. Ready to look up a drug?",
+        "Our system provides thorough details on medications, covering everything from basic uses to potential interactions. What drug shall we look up?"
+      ]
+    },
+    {
+      "tag": "examples",
+      "patterns": [
+        "give me an example",
+        "can you show me a sample?",
+        "what's a common drug?",
+        "provide an instance",
+        "show me how it works",
+        "demonstrate with an example",
+        "what drug can I try?",
+        "give me a drug name to test"
+      ],
+      "responses": [
+        "Sure, let's say you wanted information about aspirin. You'd simply type 'aspirin' and I'd fetch the details. Want to try it or look up a different drug?",
+        "For example, if you're curious about ibuprofen, you'd just type 'ibuprofen'. Shall we try that, or is there another medication you're interested in?",
+        "A common example might be looking up acetaminophen. You'd type 'acetaminophen' and I'd retrieve the information. Would you like to try this or another drug?",
+        "Let's say you wanted to know about amoxicillin. You'd type 'amoxicillin' and I'd get the data. Want to try this or a different medication?",
+        "For instance, you could type 'lisinopril' to get information about that drug. Shall we use this example, or do you have another drug in mind?"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what else can you do?",
+        "any other features?",
+        "additional functions?",
+        "other capabilities?",
+        "what are your limits?",
+        "what can't you do?",
+        "are there other options?",
+        "do you have more abilities?"
+      ],
+      "responses": [
+        "My primary function is to help you access drug information. I can't provide medical advice or prescriptions. What drug would you like to look up?",
+        "I'm specialized in retrieving drug information from our database. For other medical needs, please consult a healthcare professional. Now, what medication shall we look up?",
+        "My capability is focused on providing access to our drug information database. I can't diagnose or treat conditions. Which drug would you like information about?",
+        "I'm designed specifically to help you get drug information quickly. For any other medical concerns, please speak to a doctor. Now, what drug shall we investigate?",
+        "My role is to be your interface to our drug database. I can't offer personal medical advice. Let's focus on getting you some drug information - what medication interests you?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate it",
+        "thank you so much",
+        "great help",
+        "that's helpful",
+        "you've been helpful",
+        "thanks a lot",
+        "much appreciated",
+        "thank you for your help"
+      ],
+      "responses": [
+        "You're welcome! If you need information about another drug, just type its name.",
+        "Happy to help! Feel free to enter another drug name if you need more information.",
+        "Glad I could assist. Don't hesitate to input another medication name if you need more details.",
+        "It's my pleasure! Remember, you can look up as many drugs as you like. Just type in the names.",
+        "You're most welcome! I'm here whenever you need to check on a medication. Any other drugs you're curious about?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "that's all",
+        "exit",
+        "quit",
+        "I'm done",
+        "finish",
+        "end",
+        "bye bye",
+        "take care",
+        "got to go"
+      ],
+      "responses": [
+        "Goodbye! Remember, you can always come back and type a drug name to get information.",
+        "Take care! If you need drug information in the future, just return and enter a medication name.",
+        "Farewell! Don't forget, I'm here whenever you need to look up information on any drug.",
+        "Bye for now! Feel free to return anytime you need to check on a medication.",
+        "All the best! Remember, I'm always here to help you access drug information. Just come back and type a drug name."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand",
+        "what?",
+        "huh?",
+        "can you repeat that?",
+        "I'm confused",
+        "that doesn't make sense",
+        "I don't get it",
+        "you're not making sense",
+        "what do you mean?",
+        "come again?"
+      ],
+      "responses": [
+        "I apologize for the confusion. To use this service, simply type the name of a drug you want information about.",
+        "I might have misunderstood. This system is designed to provide drug information. Just enter the name of a medication to get started.",
+        "Sorry if I wasn't clear. To get drug information, all you need to do is type the name of a medication. What drug would you like to know about?",
+        "Let's try again. This service is all about providing drug information. Just type in the name of any medication you're curious about.",
+        "My apologies if that wasn't clear. I'm here to help you get drug information. Simply enter the name of a drug, and I'll fetch the details for you."
+      ]
+    }
+  ]
+}
